@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@media print {
+  body {
+    background-color: white !important;
+    color: black !important;
+    font-size: 11pt;
+  }
+
+  /* Hide navigation, filters, and buttons during print */
+  button,
+  form,
+  input,
+  select,
+  .no-print {
+    display: none !important;
+  }
+
+  /* Make containers full width */
+  .max-w-7xl,
+  .rounded-2xl {
+    max-width: 100% !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+  }
+
+  table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+  }
+
+  th, td {
+    border: 1px solid #cbd5e1 !important;
+    padding: 4px 6px !important;
+  }
+}

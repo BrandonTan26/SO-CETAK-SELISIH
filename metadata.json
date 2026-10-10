@@ -1,0 +1,6 @@
+{
+  "name": "Dashboard Report Cetak Selisih - Stock Opname",
+  "description": "Dashboard Laporan Cetak Selisih dan Prosentase Stock Opname Alfamart dengan integrasi API Posisi Mutasi OH Toko per PLU.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
